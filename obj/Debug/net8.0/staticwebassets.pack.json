@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Owner\\Documents\\GitHub\\techone-task\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\Documents\\GitHub\\techone-task\\wwwroot\\scripts\\scripts.js",
+      "PackagePath": "staticwebassets\\scripts\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\Documents\\GitHub\\techone-task\\wwwroot\\styles\\styles.css",
+      "PackagePath": "staticwebassets\\styles\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.techone-task.props",
+      "PackagePath": "build\\techone-task.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.techone-task.props",
+      "PackagePath": "buildMultiTargeting\\techone-task.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.techone-task.props",
+      "PackagePath": "buildTransitive\\techone-task.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.techone-task.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

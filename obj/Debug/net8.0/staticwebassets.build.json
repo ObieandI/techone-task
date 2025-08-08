@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "Nvg1CW8KHRxutfUSabM892mTijHXXj2FivA6LCb9kU8=",
+  "Source": "techone-task",
+  "BasePath": "_content/techone-task",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "techone-task\\wwwroot",
+      "Source": "techone-task",
+      "ContentRoot": "C:\\Users\\Owner\\Documents\\GitHub\\techone-task\\wwwroot\\",
+      "BasePath": "_content/techone-task",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Owner\\Documents\\GitHub\\techone-task\\wwwroot\\index.html",
+      "SourceId": "techone-task",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Owner\\Documents\\GitHub\\techone-task\\wwwroot\\",
+      "BasePath": "_content/techone-task",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Owner\\Documents\\GitHub\\techone-task\\wwwroot\\scripts\\scripts.js",
+      "SourceId": "techone-task",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Owner\\Documents\\GitHub\\techone-task\\wwwroot\\",
+      "BasePath": "_content/techone-task",
+      "RelativePath": "scripts/scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scripts\\scripts.js"
+    },
+    {
+      "Identity": "C:\\Users\\Owner\\Documents\\GitHub\\techone-task\\wwwroot\\styles\\styles.css",
+      "SourceId": "techone-task",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Owner\\Documents\\GitHub\\techone-task\\wwwroot\\",
+      "BasePath": "_content/techone-task",
+      "RelativePath": "styles/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles\\styles.css"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@techone_task_HostAddress = http://localhost:5207
+
+GET {{techone_task_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

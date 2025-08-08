@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\techone-task.props" />
+</Project>

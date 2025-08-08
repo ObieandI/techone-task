@@ -1,27 +1,26 @@
+using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc;
 
-
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/convert")]
 public class ConvertController : ControllerBase
 {
+    private readonly NumberToWordsConverter _converter;
+    public ConvertController(NumberToWordsConverter converter) => _converter = converter;
+
     [HttpPost]
     public IActionResult Convert([FromBody] ConvertRequest request)
     {
-        try
-        {
-            var converter = new NumberToWordsConverter();
-            string result = converter.Convert(request.Number);
-            return Ok(new { result });
-        }
-        catch (Exception ex)
-        {
-            return BadRequest(new { error = ex.Message });
-        }
+        if (request is null || string.IsNullOrWhiteSpace(request.Number))
+            return BadRequest(new { error = "Please provide a number." });
+
+        var result = _converter.Convert(request.Number);
+        if (string.IsNullOrWhiteSpace(result))
+            return BadRequest(new { error = "Invalid number." });
+
+        return Ok(new { result });
     }
 }
 
-public class ConvertRequest
-{
-    public string Number { get; set; }
-}
+
+public record ConvertRequest([Required] string Number);
