@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #E6F3FF;
+    font-family: 'Lato', sans-serif;
+    background-color: #F5F5F5;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,47 +11,63 @@ body {
 
 .container {
     max-width: 600px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #0072C6;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 
 form {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 input {
     flex-grow: 1;
-    padding: 10px;
+    padding: 12px;
     font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 4px 0 0 4px;
+    border: 2px solid #0072C6;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #004A8F;
 }
 
 button {
-    padding: 10px 20px;
+    padding: 12px 24px;
     font-size: 16px;
-    background-color: #295daa;
+    background-color: #0072C6;
     color: white;
     border: none;
-    border-radius: 0 4px 4px 0;
+    border-radius: 0 5px 5px 0;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #1e275a;
+    background-color: #004A8F;
 }
 
 #result {
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 4px;
+    padding: 15px;
+    background-color: #F0F0F0;
+    border-radius: 5px;
     min-height: 50px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.error-message {
+    color: #FF0000;
+    font-weight: bold;
 }
