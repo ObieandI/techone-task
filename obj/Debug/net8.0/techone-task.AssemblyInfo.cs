@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("techone-task")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+814b7aad9da4b31ce40ca42cc1b7632327d111bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb20de798728f21dbe5a5be4217cbb0fad6a6c2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("techone-task")]
 [assembly: System.Reflection.AssemblyTitleAttribute("techone-task")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
