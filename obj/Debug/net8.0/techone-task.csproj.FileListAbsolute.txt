@@ -1,3 +1,12 @@
+C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.AssemblyInfoInputs.cache
+C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.AssemblyInfo.cs
+C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.sourcelink.json
+C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.dll
+C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\refint\techone-task.dll
+C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.pdb
 C:\Users\Owner\Documents\GitHub\techone-task\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Owner\Documents\GitHub\techone-task\bin\Debug\net8.0\appsettings.json
 C:\Users\Owner\Documents\GitHub\techone-task\bin\Debug\net8.0\techone-task.staticwebassets.runtime.json
@@ -5,12 +14,6 @@ C:\Users\Owner\Documents\GitHub\techone-task\bin\Debug\net8.0\techone-task.deps.
 C:\Users\Owner\Documents\GitHub\techone-task\bin\Debug\net8.0\techone-task.runtimeconfig.json
 C:\Users\Owner\Documents\GitHub\techone-task\bin\Debug\net8.0\techone-task.dll
 C:\Users\Owner\Documents\GitHub\techone-task\bin\Debug\net8.0\techone-task.pdb
-C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.AssemblyInfoInputs.cache
-C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.AssemblyInfo.cs
-C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.csproj.CoreCompileInputs.cache
-C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.sourcelink.json
 C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\staticwebassets\msbuild.techone-task.Microsoft.AspNetCore.StaticWebAssets.props
@@ -19,8 +22,5 @@ C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\staticwebassets\ms
 C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.techone-task.props
 C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\scopedcss\bundle\techone-task.styles.css
-C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.dll
-C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\refint\techone-task.dll
-C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.pdb
 C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\techone-task.genruntimeconfig.cache
 C:\Users\Owner\Documents\GitHub\techone-task\obj\Debug\net8.0\ref\techone-task.dll

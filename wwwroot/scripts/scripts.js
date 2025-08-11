@@ -3,7 +3,12 @@ document.addEventListener("DOMContentLoaded", function () {
     .getElementById("convertForm")
     .addEventListener("submit", async function (e) {
       e.preventDefault();
+      const resultDiv = document.getElementById("result");
       const number = document.getElementById("numberInput").value;
+
+      // Reset styles
+      resultDiv.classList.remove("error-message");
+
       try {
         const response = await fetch("/api/convert", {
           method: "POST",
@@ -15,18 +20,20 @@ document.addEventListener("DOMContentLoaded", function () {
           const responseText = await response.text();
           try {
             const data = JSON.parse(responseText);
-            document.getElementById("result").textContent = data.error || "An error occurred. Please try again.";
-          } catch (parseError) {
-            console.error("Error parsing response:", parseError);
-            document.getElementById("result").textContent = "An error occurred. Please try again.";
+            resultDiv.textContent = data.error || "An error occurred. Please try again.";
+          } catch {
+            resultDiv.textContent = "An error occurred. Please try again.";
           }
+          // Apply error style
+          resultDiv.classList.add("error-message");
         } else {
           const data = await response.json();
-          document.getElementById("result").textContent = data.result;
+          resultDiv.textContent = data.result;
         }
       } catch (error) {
         console.error("Error:", error);
-        document.getElementById("result").textContent = "An error occurred. Please try again.";
+        resultDiv.textContent = "An error occurred. Please try again.";
+        resultDiv.classList.add("error-message");
       }
     });
 });
